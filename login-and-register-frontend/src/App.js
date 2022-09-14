@@ -21,6 +21,7 @@ function App() {
             <Login setLoginUser={setLoginUser}/>
           </Route>
           <Route path="/register">
+            
             <Register />
           </Route>
         </Switch>
